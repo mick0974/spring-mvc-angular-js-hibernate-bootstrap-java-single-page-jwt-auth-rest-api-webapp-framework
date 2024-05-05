@@ -1,0 +1,1148 @@
+{
+  "openapi": "3.0.0",
+  "servers": [
+    {
+      "url": "http://localhost:8080"
+    }
+  ],
+  "info": {
+    "title": "REST API",
+    "version": "",
+    "description": "REST API"
+  },
+  "paths": {
+    "/error": {
+      "delete": {
+        "description": "",
+        "operationId": "em11",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "title": "yourwebproject2.framework.api.APIResponse$ExceptionAPIResponse",
+                  "properties": {
+                    "details": {
+                      "type": "object",
+                      "title": "java.lang.Object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "others"
+          }
+        },
+        "x-endpoint-constraints": {
+          "$ref": "#/components/x-endpoint-constraints/~1error/get"
+        }
+      },
+      "get": {
+        "description": "",
+        "operationId": "em5",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "title": "yourwebproject2.framework.api.APIResponse$ExceptionAPIResponse",
+                  "properties": {
+                    "details": {
+                      "type": "object",
+                      "title": "java.lang.Object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "others"
+          }
+        },
+        "x-endpoint-constraints": {
+          "$ref": "#/components/x-endpoint-constraints/~1error/get"
+        }
+      },
+      "head": {
+        "description": "",
+        "operationId": "em7",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "title": "yourwebproject2.framework.api.APIResponse$ExceptionAPIResponse",
+                  "properties": {
+                    "details": {
+                      "type": "object",
+                      "title": "java.lang.Object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "others"
+          }
+        },
+        "x-endpoint-constraints": {
+          "$ref": "#/components/x-endpoint-constraints/~1error/get"
+        }
+      },
+      "options": {
+        "description": "",
+        "operationId": "em8",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "title": "yourwebproject2.framework.api.APIResponse$ExceptionAPIResponse",
+                  "properties": {
+                    "details": {
+                      "type": "object",
+                      "title": "java.lang.Object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "others"
+          }
+        },
+        "x-endpoint-constraints": {
+          "$ref": "#/components/x-endpoint-constraints/~1error/get"
+        }
+      },
+      "patch": {
+        "description": "",
+        "operationId": "em10",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "title": "yourwebproject2.framework.api.APIResponse$ExceptionAPIResponse",
+                  "properties": {
+                    "details": {
+                      "type": "object",
+                      "title": "java.lang.Object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "others"
+          }
+        },
+        "x-endpoint-constraints": {
+          "$ref": "#/components/x-endpoint-constraints/~1error/get"
+        }
+      },
+      "post": {
+        "description": "",
+        "operationId": "em6",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "title": "yourwebproject2.framework.api.APIResponse$ExceptionAPIResponse",
+                  "properties": {
+                    "details": {
+                      "type": "object",
+                      "title": "java.lang.Object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "others"
+          }
+        },
+        "x-endpoint-constraints": {
+          "$ref": "#/components/x-endpoint-constraints/~1error/get"
+        }
+      },
+      "put": {
+        "description": "",
+        "operationId": "em9",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "title": "yourwebproject2.framework.api.APIResponse$ExceptionAPIResponse",
+                  "properties": {
+                    "details": {
+                      "type": "object",
+                      "title": "java.lang.Object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "others"
+          }
+        },
+        "x-endpoint-constraints": {
+          "$ref": "#/components/x-endpoint-constraints/~1error/get"
+        }
+      },
+      "trace": {
+        "description": "",
+        "operationId": "em12",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "title": "yourwebproject2.framework.api.APIResponse$ExceptionAPIResponse",
+                  "properties": {
+                    "details": {
+                      "type": "object",
+                      "title": "java.lang.Object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "others"
+          }
+        },
+        "x-endpoint-constraints": {
+          "$ref": "#/components/x-endpoint-constraints/~1error/get"
+        }
+      }
+    },
+    "category/create": {
+      "post": {
+        "description": "",
+        "operationId": "em13",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "title": "yourwebproject2.framework.api.APIResponse",
+                  "properties": {
+                    "result": {
+                      "type": "object",
+                      "title": "java.lang.Object"
+                    },
+                    "time": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "INTERNAL_SERVER_ERROR"
+          },
+          "default": {
+            "description": "others"
+          }
+        },
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "parent": {
+                    "type": "string"
+                  },
+                  "priority": {
+                    "type": "integer"
+                  }
+                },
+                "maxProperties": 3
+              }
+            }
+          }
+        },
+        "x-endpoint-constraints": {
+          "$ref": "#/components/x-endpoint-constraints/category~1create/post"
+        }
+      }
+    },
+    "category/getById/{catId}": {
+      "get": {
+        "description": "",
+        "operationId": "em14",
+        "parameters": [
+          {
+            "name": "catId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "title": "yourwebproject2.framework.api.APIResponse",
+                  "properties": {
+                    "result": {
+                      "type": "object",
+                      "title": "java.lang.Object"
+                    },
+                    "time": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "INTERNAL_SERVER_ERROR"
+          },
+          "default": {
+            "description": "others"
+          }
+        },
+        "x-endpoint-constraints": {
+          "$ref": "#/components/x-endpoint-constraints/category~1getById~1{catId}/get"
+        }
+      }
+    },
+    "category/getByName/{catName}": {
+      "get": {
+        "description": "",
+        "operationId": "em15",
+        "parameters": [
+          {
+            "name": "catName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "title": "yourwebproject2.framework.api.APIResponse",
+                  "properties": {
+                    "result": {
+                      "type": "object",
+                      "title": "java.lang.Object"
+                    },
+                    "time": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "INTERNAL_SERVER_ERROR"
+          },
+          "default": {
+            "description": "others"
+          }
+        },
+        "x-endpoint-constraints": {
+          "$ref": "#/components/x-endpoint-constraints/category~1getByName~1{catName}/get"
+        }
+      }
+    },
+    "category/getSubCategoriesById/{parentCatId}": {
+      "get": {
+        "description": "",
+        "operationId": "em17",
+        "parameters": [
+          {
+            "name": "parentCatId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "title": "yourwebproject2.framework.api.APIResponse",
+                  "properties": {
+                    "result": {
+                      "type": "object",
+                      "title": "java.lang.Object"
+                    },
+                    "time": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "INTERNAL_SERVER_ERROR"
+          },
+          "default": {
+            "description": "others"
+          }
+        },
+        "x-endpoint-constraints": {
+          "$ref": "#/components/x-endpoint-constraints/category~1getSubCategoriesById~1{parentCatId}/get"
+        }
+      }
+    },
+    "category/getSubCategoriesByName/{parentCatName}": {
+      "get": {
+        "description": "",
+        "operationId": "em16",
+        "parameters": [
+          {
+            "name": "parentCatName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "title": "yourwebproject2.framework.api.APIResponse",
+                  "properties": {
+                    "result": {
+                      "type": "object",
+                      "title": "java.lang.Object"
+                    },
+                    "time": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "INTERNAL_SERVER_ERROR"
+          },
+          "default": {
+            "description": "others"
+          }
+        },
+        "x-endpoint-constraints": {
+          "$ref": "#/components/x-endpoint-constraints/category~1getSubCategoriesByName~1{parentCatName}/get"
+        }
+      }
+    },
+    "job/status/{jobId}": {
+      "get": {
+        "description": "",
+        "operationId": "em4",
+        "parameters": [
+          {
+            "name": "jobId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "title": "yourwebproject2.framework.api.APIResponse",
+                  "properties": {
+                    "result": {
+                      "type": "object",
+                      "title": "java.lang.Object"
+                    },
+                    "time": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "INTERNAL_SERVER_ERROR"
+          },
+          "default": {
+            "description": "others"
+          }
+        },
+        "x-endpoint-constraints": {
+          "$ref": "#/components/x-endpoint-constraints/job~1status~1{jobId}/get"
+        }
+      }
+    },
+    "job/submit": {
+      "post": {
+        "description": "",
+        "operationId": "em3",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "title": "yourwebproject2.framework.api.APIResponse",
+                  "properties": {
+                    "result": {
+                      "type": "object",
+                      "title": "java.lang.Object"
+                    },
+                    "time": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "INTERNAL_SERVER_ERROR"
+          },
+          "default": {
+            "description": "others"
+          }
+        },
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "properties": {
+                  "callbackURL": {
+                    "type": "string"
+                  },
+                  "catId": {
+                    "type": "integer"
+                  },
+                  "metadataJsonString": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  }
+                },
+                "maxProperties": 4
+              }
+            }
+          }
+        },
+        "x-endpoint-constraints": {
+          "$ref": "#/components/x-endpoint-constraints/job~1submit/post"
+        }
+      }
+    },
+    "user/authenticate": {
+      "post": {
+        "description": "",
+        "operationId": "em0",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "title": "yourwebproject2.framework.api.APIResponse",
+                  "properties": {
+                    "result": {
+                      "type": "object",
+                      "title": "java.lang.Object"
+                    },
+                    "time": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "INTERNAL_SERVER_ERROR"
+          },
+          "default": {
+            "description": "others"
+          }
+        },
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "properties": {
+                  "displayName": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  },
+                  "encryptedPassword": {
+                    "type": "string"
+                  },
+                  "iterations": {
+                    "type": "integer"
+                  },
+                  "iv": {
+                    "type": "string"
+                  },
+                  "keySize": {
+                    "type": "integer"
+                  },
+                  "password": {
+                    "type": "string"
+                  },
+                  "salt": {
+                    "type": "string"
+                  }
+                },
+                "maxProperties": 8
+              }
+            }
+          }
+        },
+        "x-endpoint-constraints": {
+          "$ref": "#/components/x-endpoint-constraints/user~1authenticate/post"
+        }
+      }
+    },
+    "user/logout": {
+      "delete": {
+        "description": "",
+        "operationId": "em2",
+        "parameters": [
+          {
+            "name": "password",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "salt",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "keySize",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "displayName",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "iv",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "email",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "iterations",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "encryptedPassword",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "title": "yourwebproject2.framework.api.APIResponse",
+                  "properties": {
+                    "result": {
+                      "type": "object",
+                      "title": "java.lang.Object"
+                    },
+                    "time": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "others"
+          }
+        }
+      }
+    },
+    "user/register": {
+      "post": {
+        "description": "",
+        "operationId": "em1",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "title": "yourwebproject2.framework.api.APIResponse",
+                  "properties": {
+                    "result": {
+                      "type": "object",
+                      "title": "java.lang.Object"
+                    },
+                    "time": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "others"
+          }
+        },
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "properties": {
+                  "displayName": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  },
+                  "encryptedPassword": {
+                    "type": "string"
+                  },
+                  "iterations": {
+                    "type": "integer"
+                  },
+                  "iv": {
+                    "type": "string"
+                  },
+                  "keySize": {
+                    "type": "integer"
+                  },
+                  "password": {
+                    "type": "string"
+                  },
+                  "salt": {
+                    "type": "string"
+                  }
+                },
+                "maxProperties": 8
+              }
+            }
+          }
+        },
+        "x-endpoint-constraints": {
+          "$ref": "#/components/x-endpoint-constraints/user~1register/post"
+        }
+      }
+    }
+  },
+  "components": {
+    "x-endpoint-constraints": {
+      "/error": {
+        "get": {
+          "global-reads": {
+            "g6": {
+              "name": "LOG",
+              "location-details": {
+                "$ref": "#/components/x-global-variables-info/g6"
+              }
+            }
+          }
+        }
+      },
+      "category/create": {
+        "post": {
+          "global-reads": {
+            "g2": {
+              "name": "AUTO",
+              "location-details": {
+                "$ref": "#/components/x-global-variables-info/g2"
+              }
+            },
+            "g7": {
+              "name": "LOG",
+              "location-details": {
+                "$ref": "#/components/x-global-variables-info/g7"
+              }
+            }
+          }
+        }
+      },
+      "category/getById/{catId}": {
+        "get": {
+          "valid-path-conditions": [
+            "( (yourwebproject2.framework.data.Entity) this.<yourwebproject2.framework.data.BaseHibernateJPARepository: org.hibernate.SessionFactory sessionFactory>.<org.hibernate.SessionFactory: org.hibernate.Session getCurrentSession()>().<org.hibernate.Session: java.lang.Object get(java.lang.Class,java.io.Serializable)>(this.<yourwebproject2.framework.data.BaseHibernateJPARepository: java.lang.Class clazz>, {catId}) != null )"
+          ]
+        }
+      },
+      "category/getByName/{catName}": {
+        "get": {
+          "valid-path-conditions": [
+            "( (yourwebproject2.model.entity.Category) this.<yourwebproject2.model.repository.impl.CategoryRepositoryImpl: org.hibernate.SessionFactory sessionFactory>.<org.hibernate.SessionFactory: org.hibernate.Session getCurrentSession()>().<org.hibernate.Session: org.hibernate.Query createQuery(java.lang.String)>(\"from Category c where c.name = :categoryName\").<org.hibernate.Query: org.hibernate.Query setParameter(java.lang.String,java.lang.Object)>(\"categoryName\", {catName}).<org.hibernate.Query: java.lang.Object uniqueResult()>() != null )"
+          ]
+        }
+      },
+      "category/getSubCategoriesById/{parentCatId}": {
+        "get": {
+          "valid-path-conditions": [
+            "( (yourwebproject2.framework.data.Entity) this.<yourwebproject2.framework.data.BaseHibernateJPARepository: org.hibernate.SessionFactory sessionFactory>.<org.hibernate.SessionFactory: org.hibernate.Session getCurrentSession()>().<org.hibernate.Session: java.lang.Object get(java.lang.Class,java.io.Serializable)>(this.<yourwebproject2.framework.data.BaseHibernateJPARepository: java.lang.Class clazz>, {parentCatId}) != null )"
+          ]
+        }
+      },
+      "category/getSubCategoriesByName/{parentCatName}": {
+        "get": {
+          "valid-path-conditions": [
+            "( (yourwebproject2.model.entity.Category) this.<yourwebproject2.model.repository.impl.CategoryRepositoryImpl: org.hibernate.SessionFactory sessionFactory>.<org.hibernate.SessionFactory: org.hibernate.Session getCurrentSession()>().<org.hibernate.Session: org.hibernate.Query createQuery(java.lang.String)>(\"from Category c where c.name = :categoryName\").<org.hibernate.Query: org.hibernate.Query setParameter(java.lang.String,java.lang.Object)>(\"categoryName\", {parentCatName}).<org.hibernate.Query: java.lang.Object uniqueResult()>() != null )"
+          ]
+        }
+      },
+      "job/status/{jobId}": {
+        "get": {
+          "valid-path-conditions": [
+            "( (yourwebproject2.framework.data.Entity) this.<yourwebproject2.framework.data.BaseHibernateJPARepository: org.hibernate.SessionFactory sessionFactory>.<org.hibernate.SessionFactory: org.hibernate.Session getCurrentSession()>().<org.hibernate.Session: java.lang.Object get(java.lang.Class,java.io.Serializable)>(this.<yourwebproject2.framework.data.BaseHibernateJPARepository: java.lang.Class clazz>, {jobId}) != null )"
+          ]
+        }
+      },
+      "job/submit": {
+        "post": {
+          "valid-path-conditions": [
+            "( (yourwebproject2.framework.data.Entity) this.<yourwebproject2.framework.data.BaseHibernateJPARepository: org.hibernate.SessionFactory sessionFactory>.<org.hibernate.SessionFactory: org.hibernate.Session getCurrentSession()>().<org.hibernate.Session: java.lang.Object get(java.lang.Class,java.io.Serializable)>(this.<yourwebproject2.framework.data.BaseHibernateJPARepository: java.lang.Class clazz>, {non_EPP#0}.<yourwebproject2.model.dto.JobDTO: java.lang.Long getCatId()>()) != null )"
+          ],
+          "global-reads": {
+            "g2": {
+              "name": "AUTO",
+              "location-details": {
+                "$ref": "#/components/x-global-variables-info/g2"
+              }
+            },
+            "g5": {
+              "name": "NEW",
+              "location-details": {
+                "$ref": "#/components/x-global-variables-info/g5"
+              }
+            }
+          }
+        }
+      },
+      "user/authenticate": {
+        "post": {
+          "valid-path-conditions": [
+            "( (yourwebproject2.model.entity.User) this.<yourwebproject2.model.repository.impl.UserRepositoryImpl: org.hibernate.SessionFactory sessionFactory>.<org.hibernate.SessionFactory: org.hibernate.Session getCurrentSession()>().<org.hibernate.Session: org.hibernate.Query createQuery(java.lang.String)>(\"from User u where u.email = :email\").<org.hibernate.Query: org.hibernate.Query setParameter(java.lang.String,java.lang.Object)>(\"email\", {non_EPP#0}.<yourwebproject2.model.dto.UserDTO: java.lang.String getEmail()>()).<org.hibernate.Query: java.lang.Object uniqueResult()>() != null )"
+          ],
+          "global-reads": {
+            "g0": {
+              "name": "LOG",
+              "location-details": {
+                "$ref": "#/components/x-global-variables-info/g0"
+              }
+            },
+            "g1": {
+              "name": "passwordEncoder",
+              "location-details": {
+                "$ref": "#/components/x-global-variables-info/g1"
+              }
+            },
+            "g2": {
+              "name": "AUTO",
+              "location-details": {
+                "$ref": "#/components/x-global-variables-info/g2"
+              }
+            },
+            "g3": {
+              "name": "HS256",
+              "location-details": {
+                "$ref": "#/components/x-global-variables-info/g3"
+              }
+            }
+          },
+          "global-writes": {
+            "g1": {
+              "name": "passwordEncoder",
+              "assigned-values": [
+                "new org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder()"
+              ],
+              "location-details": {
+                "$ref": "#/components/x-global-variables-info/g1"
+              }
+            }
+          }
+        }
+      },
+      "user/register": {
+        "post": {
+          "global-reads": {
+            "g0": {
+              "name": "LOG",
+              "location-details": {
+                "$ref": "#/components/x-global-variables-info/g0"
+              }
+            },
+            "g1": {
+              "name": "passwordEncoder",
+              "location-details": {
+                "$ref": "#/components/x-global-variables-info/g1"
+              }
+            },
+            "g2": {
+              "name": "AUTO",
+              "location-details": {
+                "$ref": "#/components/x-global-variables-info/g2"
+              }
+            },
+            "g3": {
+              "name": "HS256",
+              "location-details": {
+                "$ref": "#/components/x-global-variables-info/g3"
+              }
+            },
+            "g4": {
+              "name": "USER",
+              "location-details": {
+                "$ref": "#/components/x-global-variables-info/g4"
+              }
+            }
+          },
+          "global-writes": {
+            "g1": {
+              "name": "passwordEncoder",
+              "assigned-values": [
+                "new org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder()"
+              ],
+              "location-details": {
+                "$ref": "#/components/x-global-variables-info/g1"
+              }
+            }
+          }
+        }
+      }
+    },
+    "x-endpoint-interdependence": {
+      "g1": {
+        "location-details": {
+          "$ref": "#/components/x-global-variables-info/g1"
+        },
+        "read-by": {
+          "em1": {
+            "$ref": "#/paths/user~1register/post"
+          },
+          "em0": {
+            "$ref": "#/paths/user~1authenticate/post"
+          }
+        },
+        "written-by": {
+          "em1": {
+            "$ref": "#/paths/user~1register/post"
+          },
+          "em0": {
+            "$ref": "#/paths/user~1authenticate/post"
+          }
+        }
+      }
+    },
+    "x-global-variables-info": {
+      "g0": {
+        "name": "LOG",
+        "id": "g0",
+        "defining-class": "yourwebproject2.controller.UserController",
+        "locations-of-static-assignments": [
+          "line 47, yourwebproject2.controller.UserController"
+        ]
+      },
+      "g1": {
+        "name": "passwordEncoder",
+        "id": "g1",
+        "defining-class": "yourwebproject2.model.entity.User",
+        "locations-of-static-assignments": [
+          "line 40, yourwebproject2.model.entity.User"
+        ]
+      },
+      "g2": {
+        "name": "AUTO",
+        "id": "g2",
+        "defining-class": "org.hibernate.FlushMode"
+      },
+      "g3": {
+        "name": "HS256",
+        "id": "g3",
+        "defining-class": "io.jsonwebtoken.SignatureAlgorithm"
+      },
+      "g4": {
+        "name": "USER",
+        "id": "g4",
+        "defining-class": "yourwebproject2.model.entity.User$Role",
+        "locations-of-static-assignments": [
+          "line 24, yourwebproject2.model.entity.User$Role"
+        ]
+      },
+      "g5": {
+        "name": "NEW",
+        "id": "g5",
+        "defining-class": "yourwebproject2.model.entity.Job$Status",
+        "locations-of-static-assignments": [
+          "line 21, yourwebproject2.model.entity.Job$Status"
+        ]
+      },
+      "g6": {
+        "name": "LOG",
+        "id": "g6",
+        "defining-class": "yourwebproject2.controller.ErrorController",
+        "locations-of-static-assignments": [
+          "line 24, yourwebproject2.controller.ErrorController"
+        ]
+      },
+      "g7": {
+        "name": "LOG",
+        "id": "g7",
+        "defining-class": "yourwebproject2.controller.CategoryController",
+        "locations-of-static-assignments": [
+          "line 25, yourwebproject2.controller.CategoryController"
+        ]
+      }
+    }
+  }
+}
